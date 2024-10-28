@@ -3,186 +3,415 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <title>Admin Dashboard</title>
   </head>
   <body>
     <div class="sidebar">
-      <div class="logo">Dashboard</div>
+      <div class="logo">
+        <img
+          src="./images/view-dashboard.svg"
+          alt="dashboard logo"
+          width="50"
+          height="50"
+        />
+        <a href="#">Dashboard</a>
+      </div>
       <ul>
         <li>
-          <img src="#" alt="@" />
-          <a href="#" class="list-item">something</a>
+          <img src="./images/home.svg" alt="home logo" width="50" height="50" />
+          <a href="#" class="list-item">Home</a>
         </li>
         <li>
-          <img src="#" alt="@" />
-          <a href="#" class="list-item">something</a>
+          <img
+            src="./images/card-account-details.svg"
+            alt="profile logo"
+            width="50"
+            height="50"
+          />
+          <a href="#" class="list-item">Profile</a>
         </li>
         <li>
-          <img src="#" alt="@" />
-          <a href="#" class="list-item">something</a>
+          <img
+            src="./images/message-reply.svg"
+            alt="messages reply"
+            width="50"
+            height="50"
+          />
+          <a href="#" class="list-item">Messages</a>
         </li>
         <li>
-          <img src="#" alt="@" />
-          <a href="#" class="list-item">something</a>
+          <img
+            src="./images/clock-time-three.svg"
+            alt="filled clock time three"
+            width="50"
+            height="50"
+          />
+          <a href="#" class="list-item">History</a>
         </li>
         <li>
-          <img src="#" alt="@" />
-          <a href="#" class="list-item">something</a>
+          <img
+            src="./images/file-multiple.svg"
+            alt="multiple files"
+            width="50"
+            height="50"
+          />
+          <a href="#" class="list-item">Tasks</a>
         </li>
       </ul>
       <ul>
         <li>
-          <img src="#" alt="@" />
-          <a href="#" class="list-item">another something</a>
+          <img src="./images/cog.svg" alt="filled cog" width="50" height="50" />
+          <a href="#" class="list-item">Settings</a>
         </li>
         <li>
-          <img src="#" alt="@" />
-          <a href="#" class="list-item">another something</a>
+          <img
+            src="./images/help-box.svg"
+            alt="help box"
+            width="50"
+            height="50"
+          />
+          <a href="#" class="list-item">Support</a>
         </li>
         <li>
-          <img src="#" alt="@" />
-          <a href="#" class="list-item">another something</a>
+          <img
+            src="./images/shield-check.svg"
+            alt="shield check"
+            width="50"
+            height="50"
+          />
+          <a href="#" class="list-item">Privacy</a>
         </li>
       </ul>
     </div>
     <div class="header">
-      <div>
-        <button>search</button>
-        <input type="search" />
-      </div>
-      <div class="notify">icon</div>
-      <div>
-        <img src="#" alt="@" />
-        <p>somebody's name</p>
-      </div>
-      <div class="greeting">
-        <img src="#" alt="@" />
-        <div>
-          <div>Hi there,</div>
-          <div>somebody's name</div>
+      <div class="top-header">
+        <div class="search-bar">
+          <button>
+            <img
+              src="./images/magnify.svg"
+              alt="magnify"
+              width="50"
+              height="50"
+            />
+          </button>
+          <input type="search" />
+        </div>
+        <div class="profile-name-image">
+          <div class="notify">
+            <img
+              src="./images/bell-ring-outline.svg"
+              alt="bell ring"
+              width="50"
+              height="50"
+            />
+          </div>
+          <img
+            src="./images/cat-ball.jpg"
+            alt="cat playing with a ball"
+            width="100px"
+            height="100px"
+          />
+          <div class="name">Morgan Oakely</div>
         </div>
       </div>
-      <div class="button-tags">
-        <button type="button">simple</button
-        ><button type="button">simple</button
-        ><button type="button">simple</button>
+      <div class="bottom-header">
+        <div class="greeting">
+          <img
+            src="./images/cat-ball.jpg"
+            alt="cat playing with a ball"
+            width="100px"
+            height="100px"
+          />
+          <div>
+            <div>Hi there,</div>
+            <div class="person-name">Morgan Oakely (@morgan)</div>
+          </div>
+        </div>
+        <div class="button-tags">
+          <button type="button">New</button><button type="button">Upload</button
+          ><button type="button">Share</button>
+        </div>
       </div>
     </div>
-    <div>
-      <div>
-        <div>Your Projects</div>
+    <div class="main-space">
+      <div class="cards-holder-parent">
+        <h2>Your Projects</h2>
         <div class="cards-holder">
           <div class="card">
-            <a href="#">project name</a>
-            <p>lorem ipsum</p>
+            <div>
+              <a href="#">super cool project</a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
+              quas aspernatur commodi corporis eius ipsam incidunt sit,
+              asperiores maiores, sapiente eos vitae quae tempora cupiditate
+              laborum nam ad adipisci quod.
+            </p>
+            </div>
             <div class="reactions">
-              <img src="#" alt="@" /><img src="#" alt="@" /><img
-                src="#"
-                alt="@"
-              />
+              <button>
+                <img
+                  src="./images/start-plus-outline.svg"
+                  alt="star plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/eye-plus-outline.svg"
+                  alt="eye plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/source-fork.svg"
+                  alt="source fork"
+                  width="50"
+                  height="50"
+                />
+              </button>
             </div>
           </div>
           <div class="card">
-            <a href="#">project name</a>
-            <p>lorem ipsumfalkd a kajfldiaouslkf</p>
+            <div>
+              <a href="#">less cool project</a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              doloremque placeat rerum ut cumque enim, quod earum, atque fugiat.
+              Aperiam?
+            </p>
+            </div>
             <div class="reactions">
-              <img src="#" alt="@" /><img src="#" alt="@" /><img
-                src="#"
-                alt="@"
-              />
+              <button>
+                <img
+                  src="./images/start-plus-outline.svg"
+                  alt="star plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/eye-plus-outline.svg"
+                  alt="eye plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/source-fork.svg"
+                  alt="source fork"
+                  width="50"
+                  height="50"
+                />
+              </button>
             </div>
           </div>
           <div class="card">
-            <a href="#">project name</a>
-            <p>lorem ipsumfalkd a kajfldiaouslkf</p>
+            <div>
+              <a href="#">impossible app</a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elits earum qui
+              alias veniam architecto facere! Consequatur obcaecati impedit vero
+              deserunt nostrum?
+            </p>
+            </div>
             <div class="reactions">
-              <img src="#" alt="@" /><img src="#" alt="@" /><img
-                src="#"
-                alt="@"
-              />
+              <button>
+                <img
+                  src="./images/start-plus-outline.svg"
+                  alt="star plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/eye-plus-outline.svg"
+                  alt="eye plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/source-fork.svg"
+                  alt="source fork"
+                  width="50"
+                  height="50"
+                />
+              </button>
             </div>
           </div>
           <div class="card">
-            <a href="#">project name</a>
-            <p>lorem ipsumfalkd a kajfldiaouslkf</p>
+            <div>
+              <a href="#">easy peasy app</a>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium sint, saepe itaque consequatur maxime quas! Id et
+              perspiciatis odio ut? Amet, provident. Praesentium soluta placeat
+              doloremque id ipsa dolores illo?
+            </p>
+            </div>
             <div class="reactions">
-              <img src="#" alt="@" /><img src="#" alt="@" /><img
-                src="#"
-                alt="@"
-              />
+              <button>
+                <img
+                  src="./images/start-plus-outline.svg"
+                  alt="star plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/eye-plus-outline.svg"
+                  alt="eye plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/source-fork.svg"
+                  alt="source fork"
+                  width="50"
+                  height="50"
+                />
+              </button>
             </div>
           </div>
           <div class="card">
-            <a href="#">project name</a>
-            <p>lorem ipsumfalkd a kajfldiaouslkf</p>
+            <div>
+              <a href="#">ad blocker</a>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, to
+              earum error soluta necessitatibus? Fugiat facilis voluptas
+              deserunt dignissimos voluptates consequatur ducimus!
+            </p>
+            </div>
             <div class="reactions">
-              <img src="#" alt="@" /><img src="#" alt="@" /><img
-                src="#"
-                alt="@"
-              />
+              <button>
+                <img
+                  src="./images/start-plus-outline.svg"
+                  alt="star plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/eye-plus-outline.svg"
+                  alt="eye plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/source-fork.svg"
+                  alt="source fork"
+                  width="50"
+                  height="50"
+                />
+              </button>
             </div>
           </div>
           <div class="card">
-            <a href="#">project name</a>
-            <p>lorem ipsumfalkd a kajfldiaouslkf</p>
+            <div>
+              <a href="#">money maker</a>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
+              deserunt quia dicta et est ab saepe? Soluta reiciendis eveniet
+              nctio magnam atque?
+            </p>
+            </div>
             <div class="reactions">
-              <img src="#" alt="@" /><img src="#" alt="@" /><img
-                src="#"
-                alt="@"
-              />
+              <button>
+                <img
+                  src="./images/start-plus-outline.svg"
+                  alt="star plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/eye-plus-outline.svg"
+                  alt="eye plus"
+                  width="50"
+                  height="50"
+                /></button
+              ><button>
+                <img
+                  src="./images/source-fork.svg"
+                  alt="source fork"
+                  width="50"
+                  height="50"
+                />
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <div>
-        <div>Announcements</div>
-        <div class="annoucement-sticker">
+      <div class="announcement-parent">
+        <h2>Announcements</h2>
+        <div class="announcement-sticker">
           <div>
-            <div>some title</div>
-            <p>loremdip nsiklajhfakljdfjaljfalkjf</p>
+            <div class="announcement-title">Site Maintenance</div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+              veritatis iure rerum odio, facilis nulla provident deserunt cumque
+              iste nemo dolor dicta, recusandae earum et quo quaerat officiis
+              excepturi fugiat!
+            </p>
           </div>
           <hr />
           <div>
-            <div>some title</div>
-            <p>loremdip nsiklajhfakljdfjaljfalkjf</p>
+            <div class="announcement-title">Community Share Day</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consequuntur mollitia, eius sed dolorem distinctio ad nobis
+              aliquid perspiciatis illum hic molestiae provident doloribus.
+            </p>
           </div>
           <hr />
           <div>
-            <div>some title</div>
-            <p>loremdip nsiklajhfakljdfjaljfalkjf</p>
+            <div class="announcement-title">Updated Privacy Policy</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
+              vitae animi explicabo voluptatum reiciendis eos possimus
+              repudiandae deleniti quidem voluptate nam distinctio maiores,
+              neque architecto atque, excepturi eligendi odit quas.
+            </p>
           </div>
         </div>
       </div>
-      <div>
-        <div>Trending</div>
+      <div class="trending-parent">
+        <h2>Trending</h2>
         <div class="trending-sticker">
           <div class="people">
-            <img src="#" alt="@" />
+            <img src="./images/cat-ball.jpg" alt="cat playing with a
+            bwidth="100px" height="100px"all" />
             <div>
-              <a href="#" class="username">username</a>
-              <a href="#" class="project">project name</a>
+              <a href="#" class="username">@tegan</a>
+              <a href="#" class="project">world peace builder</a>
             </div>
           </div>
           <div class="people">
-            <img src="#" alt="@" />
+            <img src="./images/cat-ball.jpg" alt="cat playing with a
+            bwidth="100px" height="100px"all" />
             <div>
-              <a href="#" class="username">username</a>
-              <a href="#" class="project">project name</a>
+              <a href="#" class="username">@morgan</a>
+              <a href="#" class="project">super cool project</a>
             </div>
           </div>
           <div class="people">
-            <img src="#" alt="@" />
+            <img src="./images/cat-ball.jpg" alt="cat playing with a
+            bwidth="100px" height="100px"all" />
             <div>
-              <a href="#" class="username">username</a>
-              <a href="#" class="project">project name</a>
+              <a href="#" class="username">@kendall</a>
+              <a href="#" class="project">life changing app</a>
             </div>
           </div>
           <div class="people">
-            <img src="#" alt="@" />
+            <img src="./images/cat-ball.jpg" alt="cat playing with a
+            bwidth="100px" height="100px"all" />
             <div>
-              <a href="#" class="username">username</a>
-              <a href="#" class="project">project name</a>
+              <a href="#" class="username">@alex</a>
+              <a href="#" class="project">no traffic maker</a>
             </div>
           </div>
         </div>
